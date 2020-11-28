@@ -1,0 +1,28 @@
+
+$ git config --global user.name "Sabahat Rizvi"
+
+$ git config --global user.email "sabahat.qubee@gmmail.com"
+
+$ touch .gitignore
+
+$ git init
+Initialized empty Git repository in C:/Users/Desktop/eshop/.git/
+
+$ git add .
+warning: LF will be replaced by CRLF in .idea/inspectionProfiles/profiles_settings.xml.
+The file will have its original line endings in your working directory
+
+$ git commit -m "initial commit"
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+$ git remote add origin git@github.com:sabahatrizvi2311/eshop.git
+
+$ git push origin master
+
+$ ssh-keygen -t rsa -b 4096 -C "sabahat.qubee@gmail.com"
+
+
+
